@@ -1,5 +1,8 @@
 # NgxUvAdmin
 [![npm version](https://badge.fury.io/js/ngx-uvdream-admin.svg)](https://badge.fury.io/js/ngx-uvdream-admin)
+[![GitHub stars](https://img.shields.io/github/stars/UvDream/ngx-Uview.svg)](https://github.com/UvDream/ngx-Uview/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/UvDream/ngx-Uview.svg)](https://github.com/UvDream/ngx-Uview/network)
+![Progress](http://progressed.io/bar/1?title=done)   
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
