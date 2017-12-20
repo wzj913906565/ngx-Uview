@@ -1,4 +1,5 @@
 # NgxUvAdmin
+[![npm version](https://badge.fury.io/js/ngx-uvdream-admin.svg)](https://badge.fury.io/js/ngx-uvdream-admin)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 

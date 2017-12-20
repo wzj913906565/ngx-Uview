@@ -1,4 +1,5 @@
 <div>
+  <p>按钮类型</p>
   <button nv-button [nvType]="'default'">
     <span>default</span>
   </button>
@@ -23,7 +24,32 @@
   <button nv-button [nvType]="'error'">
     <span>error</span>
   </button>
+  <p>按钮形状</p>
   <button nv-button [nvType]="'default'" [nvShape]="'circle'">
-    <i class="iconfont nv-search"></i>
+    <i class="iconfont">&#xe6b0;</i>
   </button>
+  <p>图标按钮</p>
+  <button nv-button [nvIcon]="'ios-search'">
+    搜索
+  </button>
+  <p>按钮大小</p>
+  <button nv-button [nvSize]="'large'">
+    large
+  </button>
+  <button nv-button [nvSize]="'default'">
+    default
+  </button>
+  <button nv-button [nvSize]="'small'">
+    small
+  </button>
+  <br>
+  <br>
+  <button nv-button [nvType]="'success'" [nvSize]="'long'">
+    long
+  </button>
+  <br><br>
+  <button nv-button [nvType]="'error'" [nvSize]="'long'">
+    long
+  </button>
+
 </div>

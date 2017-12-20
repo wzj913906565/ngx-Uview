@@ -89,8 +89,42 @@
     width: 32px;
     height: 32px;
     padding: 0;
-    // line-height: 32x;
+    line-height: 32x;
     text-align: center;
     font-size: 16px;
     border-radius: 50%;
+}
+// 搜索按钮
+.nv-button-icon-search{
+    line-height: 20px;
+}
+// 按钮大小
+.nv-button-large{
+    padding: 6px 15px 7px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.nv-button-small{
+    padding: 2px 7px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.nv-button-long{
+    width: 100%;
+}
+.nvClick{
+    animation: borderShowder 1.5s forwards;
+    
+}
+@keyframes borderShowder{
+    0%{
+        box-shadow: 0px 0px 1px @Blue;
+    }
+    50%{
+        box-shadow: 0px 0px 15px @Blue; 
+        opacity: .8; 
+    }
+    100%{
+        box-shadow: 0px 0px 0px @Blue;   
+    }
 }

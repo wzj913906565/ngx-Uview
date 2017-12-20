@@ -1,0 +1,1 @@
+export * from './src/components/ng-uvdream.module'

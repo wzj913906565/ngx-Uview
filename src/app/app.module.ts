@@ -12,7 +12,7 @@ import { NgUvdreamModule } from '../components/ng-uvdream.module';
 ],
   imports: [
     BrowserModule,
-    NgUvdreamModule.forRoot(),
+    NgUvdreamModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
